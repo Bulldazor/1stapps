@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SaferVPN</string>
+    <string name="button_text">LogIn</string>
+    <string name="input_hint_text"> UserName</string>
+    <string name="input_hint_text2">Password</string>
+    <string name="button_text2">Start free</string>
+    <string name="edit_text">Forgot password?</string>
+    <string name="edit_text2">Do not have a SaferVPN account?</string>
+
+</resources>

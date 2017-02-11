@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Deal</string>
+
+    <string name="button_text">OK</string>
+    <string name="input_hint_text">Password</string>
+    <string name="medium">Email address</string>
+    <string name="btn">Sign In</string>
+    <string name="btn2">Sign In</string>
+    <string name="btn3">Sign In</string>
+    <string name="sml">Forget Password?</string>
+    <string name="smll">New Here?Sign Up</string>
+    <string name="show_text">Please Write Your Name</string>
+
+
+</resources>

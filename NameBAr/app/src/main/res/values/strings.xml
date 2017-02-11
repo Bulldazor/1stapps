@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">"App"</string>
+    <string name="button_text">OK</string>
+    <string name="input_hint_text">Your Name</string>
+    <string name="show_text">Please Write Your Name</string>
+
+
+</resources>

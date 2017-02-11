@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#F0FFFF"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rr.player.MainActivity">
+
+    <TextView
+        android:text="Song List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/textView2"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:text="Aniket Prantor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner"
+        android:layout_marginTop="39dp"
+        android:textColor="@android:color/darker_gray"
+        android:id="@+id/buttonAniket"
+        android:drawableLeft="@drawable/pla"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Poth Chola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/round_corner"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/pla"
+        android:layout_marginTop="27dp"
+        android:id="@+id/buttonPath"
+        android:layout_below="@+id/buttonAniket"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Chaite Paro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/pla"
+        android:id="@+id/buttonChaite"
+        android:textStyle="bold"
+        android:background="@drawable/round_corner"
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@+id/buttonPath"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Amjonota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/buttonAam"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/round_corner"
+        android:drawableLeft="@drawable/pla"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_below="@+id/buttonChaite"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Dukkho Bilash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/pla"
+        android:id="@+id/buttonDukkho"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:background="@drawable/round_corner"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/buttonAam"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="About Me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_below="@+id/buttonDukkho"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textViewAboutMe" />
+
+</RelativeLayout>

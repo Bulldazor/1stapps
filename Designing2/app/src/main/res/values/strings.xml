@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Company Designing</string>
+    <string name="button_text">Log In</string>
+    <string name="input_hint_text"> Username</string>
+    <string name="input_hint_text2">Password</string>
+    <string name="button_text2">Start free</string>
+    <string name="edit_text">Forgot password?</string>
+    <string name="large">Company Log in.</string>
+    <string name="last">I do not have an account yet.create one</string>
+
+    <string name="small_text">For research purpose only confidential</string>
+    <string name="edit_text2">Do not have a SaferVPN account?</string>
+</resources>

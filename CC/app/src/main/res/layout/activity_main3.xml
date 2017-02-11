@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@android:color/white"
+    android:paddingTop="@dimen/activity_vertical_margin"
+   >
+
+
+
+        <TextView
+            android:text="Put Your Information Here"
+            android:layout_width="match_parent"
+            android:textColor="#F1C4"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewInfo" />
+
+        <!--<TextView-->
+            <!--android:text="Subject Name"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_marginTop="80dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="15dp"-->
+            <!--android:textColor="#7b2"-->
+            <!--android:id="@+id/textViewSubject" />-->
+
+        <!--<TextView-->
+            <!--android:text="GPA"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="#7b2"-->
+            <!--android:textSize="15dp"-->
+            <!--android:id="@+id/textViewGpa"-->
+            <!--android:layout_alignBottom="@+id/textViewCreditHour"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+
+            <!--android:layout_marginRight="22dp"-->
+            <!--android:layout_marginEnd="22dp"-->
+            <!--android:layout_alignTop="@+id/textViewCreditHour" />-->
+
+        <!--<EditText-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="4/3.5"-->
+            <!--android:ems="3"-->
+
+            <!--android:alpha="0.65"-->
+            <!--android:gravity=""-->
+            <!--android:textColorHint="#e67e22"-->
+            <!--android:id="@+id/editTextGPA1"-->
+            <!--android:layout_alignBottom="@+id/editTextCrdtHr1"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_alignTop="@+id/editTextCrdtHr1"-->
+            <!--android:layout_alignLeft="@+id/textViewGpa"-->
+            <!--android:layout_alignStart="@+id/textViewGpa" />-->
+
+        <!--<EditText-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="1."-->
+
+            <!--android:alpha="0.65"-->
+            <!--android:textColorHint="#E67e22"-->
+            <!--android:layout_marginTop="23dp"-->
+            <!--android:ems="5"-->
+            <!--android:id="@+id/editTextSub1"-->
+            <!--android:layout_below="@+id/textViewSubject"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true" />-->
+
+        <!--<EditText-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="3/2/1.5"-->
+            <!--android:alpha="0.65"-->
+
+            <!--android:gravity="center"-->
+            <!--android:textColorHint="#e67e22"-->
+            <!--android:ems="4"-->
+            <!--android:id="@+id/editTextCrdtHr1"-->
+            <!--android:layout_marginLeft="44dp"-->
+            <!--android:layout_marginStart="44dp"-->
+            <!--android:layout_alignBaseline="@+id/editTextSub1"-->
+            <!--android:layout_alignBottom="@+id/editTextSub1"-->
+            <!--android:layout_toRightOf="@+id/textViewSubject"-->
+            <!--android:layout_alignRight="@+id/textViewCreditHour"-->
+            <!--android:layout_alignEnd="@+id/textViewCreditHour" />-->
+
+    <!--<EditText-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="3/2/1.5"-->
+
+            <!--android:alpha="0.65"-->
+            <!--android:textColorHint="#e67e22"-->
+            <!--android:gravity="center"-->
+            <!--android:ems="4"-->
+            <!--android:id="@+id/editTextCrdtHr2"-->
+            <!--android:layout_alignBaseline="@+id/editTextSub2"-->
+            <!--android:layout_alignBottom="@+id/editTextSub2"-->
+            <!--android:layout_alignRight="@+id/editTextCrdtHr1"-->
+            <!--android:layout_alignEnd="@+id/editTextCrdtHr1"-->
+
+            <!--android:layout_alignLeft="@+id/editTextCrdtHr1"-->
+            <!--android:layout_alignStart="@+id/editTextCrdtHr1" />-->
+
+    <!--<EditText-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="3/2/1.5"-->
+
+            <!--android:ems="4"-->
+            <!--android:alpha="0.65"-->
+            <!--android:textColorHint="#e67e22"-->
+            <!--android:gravity="center"-->
+
+            <!--android:id="@+id/editTextCrHr3"-->
+            <!--android:layout_below="@+id/editTextSub2"-->
+            <!--android:layout_alignLeft="@+id/editTextCrdtHr2"-->
+            <!--android:layout_alignStart="@+id/editTextCrdtHr2"-->
+        <!--android:layout_alignRight="@+id/editTextCrHr4"-->
+        <!--android:layout_alignEnd="@+id/editTextCrHr4" />-->
+
+        <!--<EditText-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="3."-->
+            <!--android:alpha="0.65"-->
+            <!--android:ems="5"-->
+            <!--android:id="@+id/editTextSub3"-->
+            <!--android:textColorHint="#e67e22"-->
+            <!--android:layout_alignBaseline="@+id/editTextCrHr3"-->
+            <!--android:layout_alignBottom="@+id/editTextCrHr3"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true" />-->
+
+        <!--<TextView-->
+            <!--android:text="Credit Hour"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/textViewCreditHour"-->
+            <!--android:textSize="15dp"-->
+            <!--android:textColor="#7b2"-->
+            <!--android:layout_above="@+id/editTextSub1"-->
+            <!--android:layout_centerHorizontal="true" />-->
+
+
+    <!--<EditText-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="4/3.5"-->
+            <!--android:ems="3"-->
+            <!--android:alpha="0.63-->
+            <!--"-->
+            <!--android:gravity="center"-->
+            <!--android:textColorHint="#e67e22"-->
+
+
+            <!--android:id="@+id/editTextGPA4"-->
+            <!--android:layout_alignBaseline="@+id/editTextCrHr4"-->
+            <!--android:layout_alignBottom="@+id/editTextCrHr4"-->
+            <!--android:layout_alignLeft="@+id/editTextGPA3"-->
+            <!--android:layout_alignStart="@+id/editTextGPA3"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+    <!--<EditText-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint="4."-->
+            <!--android:ems="5"-->
+            <!--android:alpha="0.65"-->
+            <!--android:textColorHint="#e67e22"-->
+            <!--android:id="@+id/editTextSub4"-->
+            <!--android:layout_below="@+id/editTextSub3"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true" />-->
+
+
+    <TextView
+        android:text="Result: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/textViewrsult"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/editTextTotalCrdt"
+        android:layout_alignStart="@+id/editTextTotalCrdt"
+        android:layout_marginBottom="81dp" />
+
+    <Button
+        android:text="Total CGpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCGPA"
+        android:textColor="@android:color/background_light"
+        android:background="#FC123245"
+        android:layout_marginBottom="42dp"
+        android:layout_above="@+id/textViewrsult"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Your Total Credits "
+        android:ems="15"
+        android:alpha="0.65"
+        android:id="@+id/editTextTotalCrdt"
+        android:layout_marginBottom="63dp"
+        android:layout_above="@+id/buttonCGPA"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Your Total Value Of Crdt*GPA"
+        android:ems="15"
+        android:alpha="0.65"
+        android:id="@+id/editTextCrdt"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textViewInfo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+
+
+
+
